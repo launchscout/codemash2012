@@ -2,6 +2,8 @@ Reveal.initialize({
   controls: false,
   progress: true,
   history: true,
+  mouseWheel: false,
+  rollingLinks: false,
 
   theme: Reveal.getQueryHash().theme,
   transition: Reveal.getQueryHash().transition || 'default',
